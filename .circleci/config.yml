@@ -10,7 +10,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            cat importmap.json
+            cat fitch.importmap
 
             echo "Updating import map"
             http PATCH $DEPLOYER_HOST/import-map.json\?env=$DEPLOYER_ENV -a $DEPLOYER_USERNAME:$DEPLOYER_PASSWORD --check-status < fitch.importmap
