@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.4/lib/system/single-spa.min.js",
+    "vue": "https://unpkg.com/vue@2.6.11/dist/vue.min.js",
+    "vue-router": "https://unpkg.com/vue-router@3.3.4/dist/vue-router.min.js"
+  }
+}
